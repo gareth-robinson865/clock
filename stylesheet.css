@@ -3,3 +3,19 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
 }
+
+#title-area {
+    background-color: aqua;
+}
+
+#alarm-area {
+    background-color: blue;
+}
+
+#clock-holder {
+    background-color: red;
+}
+
+#message-section {
+    background-color: green;
+}
