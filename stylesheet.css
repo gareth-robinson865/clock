@@ -1,18 +1,22 @@
 body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     padding:0;
     margin: 0;
+    height: 100vh;
 
 }
 
 #title-area {
     background-color: aqua;
+    grid-column: 1 / 4;
 }
 
 #alarm-area {
     background-color: blue;
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
 }
 
 #clock-holder {
@@ -21,4 +25,6 @@ body {
 
 #message-section {
     background-color: green;
+    grid-column: 1 / 4;
+    grid-row: 4 / 4;
 }
