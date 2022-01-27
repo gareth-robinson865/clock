@@ -21,6 +21,8 @@ body {
 
 #clock-holder {
     background-color: red;
+    grid-column: 2 / 4;
+    grid-row: 2 / 4;
 }
 
 #message-section {
