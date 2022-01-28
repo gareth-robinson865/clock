@@ -10,9 +10,12 @@ function time() {
     if(hours >= 12) {
         meridian = "PM";
     }
-    //adding a zero to the end of the minutes when it is less than 10
+    //adding a zero to the beginning of the minutes when it is less than 10
     if(minutes < 10) {
         minutes = "0" + minutes;
     }
-    
+    //adding zero to the beginning of the seconds when it is less than 10
+    if(seconds < 10) {
+        seconds = "0" + seconds;
+    }
 }
