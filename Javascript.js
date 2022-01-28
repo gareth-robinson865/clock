@@ -25,5 +25,6 @@ function time() {
     //inserting the time into the clock section
     document.getElementById('clock').innerHTML = completeTime;
 
-    
+    //setting the timeout to one second to ensure that it updates
+    setTimeout(time, 1000);
 }
