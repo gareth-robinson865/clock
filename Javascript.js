@@ -5,4 +5,14 @@ function time() {
     let minutes = currentTime.getMinutes();
     let seconds = currentTime.getSeconds();
     let meridian = "AM";
+
+    //changing AM to PM when the time dictates
+    if(hours >= 12) {
+        meridian = "PM";
+    }
+    //adding a zero to the end of the minutes when it is less than 10
+    if(minutes < 10) {
+        minutes = "0" + minutes;
+    }
+    
 }
