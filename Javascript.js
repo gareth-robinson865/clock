@@ -18,6 +18,12 @@ function time() {
     if(seconds < 10) {
         seconds = "0" + seconds;
     }
+    
     //putting together the complete time
     let completeTime = `${hours}:${minutes}:${seconds}:${meridian}`;
+    
+    //inserting the time into the clock section
+    document.getElementById('clock').innerHTML = completeTime;
+
+    
 }
