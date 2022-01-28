@@ -18,4 +18,6 @@ function time() {
     if(seconds < 10) {
         seconds = "0" + seconds;
     }
+    //putting together the complete time
+    let completeTime = `${hours}:${minutes}:${seconds}:${meridian}`;
 }
