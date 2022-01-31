@@ -33,11 +33,11 @@ body {
 }
 
 #clock-holder h2 {
-
+    grid-column: 2 / 3;
 }
 
 #clock-holder #clock {
-    
+    grid-column: 1 / 4;
 }
 
 #message-section {
