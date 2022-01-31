@@ -15,14 +15,14 @@ body {
 
 #alarm-area {
     background-color: blue;
-    grid-column: 1 / 2;
-    grid-row: 2 / 8;
+    grid-column: 1 / 4;
+    grid-row: 2 / 4;
 }
 
 #clock-holder {
     background-color: red;
     grid-column: 2 / 4;
-    grid-row: 2 / 8;
+    grid-row: 4 / 8;
 }
 
 #message-section {
