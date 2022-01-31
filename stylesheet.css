@@ -27,8 +27,7 @@ body {
     background-color: red;
     grid-column: 1 / 4;
     grid-row: 4 / 8;
-    display: flex;
-    justify-content: center;
+    display: grid;
 }
 
 #message-section {
