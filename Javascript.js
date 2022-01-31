@@ -28,3 +28,4 @@ function time() {
     //setting the timeout to one second to ensure that it updates
     setTimeout(time, 1000);
 }
+time();
