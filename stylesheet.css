@@ -39,7 +39,9 @@ body {
 }
 
 #clock-holder #clock {
-    grid-column: 1 / 4;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    justify-content: center;
 }
 
 #message-section {
