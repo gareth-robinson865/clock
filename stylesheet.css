@@ -12,6 +12,7 @@ body {
     background-color: aqua;
     grid-column: 1 / 4;
     display: flex;
+    justify-content: center;
 }
 
 #alarm-area {
@@ -19,6 +20,7 @@ body {
     grid-column: 1 / 4;
     grid-row: 2 / 4;
     display: flex;
+    justify-content: center;
 }
 
 #clock-holder {
