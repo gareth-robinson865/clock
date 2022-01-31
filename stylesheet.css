@@ -28,6 +28,8 @@ body {
     grid-column: 1 / 4;
     grid-row: 4 / 8;
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
 }
 
 #message-section {
