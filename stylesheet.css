@@ -11,22 +11,28 @@ body {
 #title-area {
     background-color: aqua;
     grid-column: 1 / 4;
+    display: flex;
 }
 
 #alarm-area {
     background-color: blue;
     grid-column: 1 / 4;
     grid-row: 2 / 4;
+    display: flex;
 }
 
 #clock-holder {
     background-color: red;
     grid-column: 1 / 4;
     grid-row: 4 / 8;
+    display: flex;
+    justify-content: center;
 }
 
 #message-section {
     background-color: green;
     grid-column: 1 / 4;
     grid-row: 8 / 8;
+    display: flex;
+    justify-content: center;
 }
