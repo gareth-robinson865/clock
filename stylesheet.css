@@ -32,6 +32,14 @@ body {
     grid-template-rows: repeat(3, 1fr);
 }
 
+#clock-holder h2 {
+
+}
+
+#clock-holder #clock {
+    
+}
+
 #message-section {
     background-color: green;
     grid-column: 1 / 4;
