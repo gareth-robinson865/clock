@@ -12,9 +12,9 @@
         <h2>Would you like to set an alarm</h2>
         <form>
             <label for="hour">Hour</label>
-            <input type="number" name="hour" id="hour">
+            <input type="number" name="hour" id="hour" min="0" max="24">
             <label for="minutes">Minutes</label>
-            <input type="number" name="minutes" id="minutes">
+            <input type="number" name="minutes" id="minutes" min="0" max="59">
             <button id="submit-btn" type="submit" onclick="createAlarm()">Set Alarm</button>
         </form>  
     </article>
