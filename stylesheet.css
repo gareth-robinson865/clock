@@ -21,6 +21,8 @@ body {
     grid-row: 2 / 4;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 #clock-holder {
