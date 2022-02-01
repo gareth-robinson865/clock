@@ -20,13 +20,14 @@ body {
 }
 
 #clock-holder {
-    background-color: red;
+    background-color: black;
     grid-column: 1 / 4;
     grid-row: 2 / 4;
     display: flex;
     justify-content: center;
     border: 2px solid white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
 }
 
 #bottom-area {
