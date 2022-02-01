@@ -31,3 +31,8 @@ function time() {
 time();
 
 //creating the function to set an alarm
+function createAlarm() {
+    let hours = document.getElementById("hour").innerHTML;
+    let minutes = document.getElementById("minutes").innerHTML;
+    console.log(hours, minutes);
+}
