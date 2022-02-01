@@ -29,3 +29,5 @@ function time() {
     setTimeout(time, 1000);
 }
 time();
+
+//creating the function to set an alarm

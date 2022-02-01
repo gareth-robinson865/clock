@@ -10,7 +10,14 @@
 <body>
     <article id="alarm-area">
         <h2>Would you like to set an alarm</h2>
-        <input type="number">
+        <form>
+            <label for="hour">Hour</label>
+            <input type="number" name="hour" id="hour">
+            <label for="minutes">Minutes</label>
+            <input type="number" name="minutes" id="minutes">
+            <button id="submit-btn" type="submit">create</button>
+        </form>
+        
     </article>
 
     <aside id="created-alarms">
