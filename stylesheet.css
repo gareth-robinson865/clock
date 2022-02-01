@@ -10,12 +10,18 @@ body {
 
 #alarm-area {
     background-color: blue;
-    grid-column: 1 / 4;
+    grid-column: 1 / 3;
     grid-row: 1 / 3;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+}
+
+#created-alarms {
+    background: green;
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
 }
 
 #clock-holder {
