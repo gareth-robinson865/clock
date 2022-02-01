@@ -20,7 +20,7 @@ function time() {
     }
     
     //putting together the complete time
-    let completeTime = `${hours}:${minutes}:${seconds}:${meridian}`;
+    let completeTime = `${hours}:${minutes}:${seconds}`;
     
     //inserting the time into the clock section
     document.getElementById('clock').innerHTML = completeTime;
