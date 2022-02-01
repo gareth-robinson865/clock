@@ -30,12 +30,3 @@ function time() {
 }
 time();
 
-//creating the function to set an alarm
-const createAlarm = (ev) => {
-    //prevent the page from being refreshed on submit
-    ev.preventDefault();
-
-    let hours = document.getElementById("hour").value;
-    let minutes = document.getElementById("minutes").value;
-    console.log(hours, minutes);
-}
